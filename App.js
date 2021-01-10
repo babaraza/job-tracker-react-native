@@ -42,7 +42,7 @@ const App = () => {
     <TouchableWithoutFeedback onPress={Keyboard.dismiss} accessible={false}>
       {/* <TouchableWithoutFeedback accessible={false}> */}
       <SafeAreaView style={styles.container}>
-        <Text style={styles.label}>Gig Tracker 🔥</Text>
+        <Text style={styles.label}>Job Tracker 💪</Text>
         <View>
           <TextInput
             onChangeText={(text) => setDescription(text)}
